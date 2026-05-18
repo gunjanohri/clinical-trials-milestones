@@ -2,13 +2,17 @@
 
 Static dashboard for current industry-sponsored interventional studies on ClinicalTrials.gov whose phase list contains `PHASE3` and whose `Primary Completion Date` falls in `2026`.
 
+The live site now also overlays a conservative results-signal screen for trials already due by the current cutoff date.
+
 ## What is included
 
 - `site/index.html`: the published dashboard
 - `site/dashboard.css`: shared dashboard styling
-- `site/phase3_completion_2026_dashboard_trials.csv`: trial-level table data
+- `site/phase3_completion_2026_dashboard_trials.csv`: trial-level table data, including press-release signal fields
 - `site/phase3_completion_2026_month_counts.csv`: month-by-month counts
 - `site/phase3_completion_2026_dashboard_summary.json`: summary metadata
+- `site/phase3_results_press_release_check_2026.csv`: raw trial-level results/press-release screening output
+- `site/phase3_results_press_release_check_2026_summary.json`: screening summary metadata
 - `render.yaml`: Render static-site blueprint
 
 ## Snapshot
@@ -17,6 +21,12 @@ Static dashboard for current industry-sponsored interventional studies on Clinic
 - Trials in the dashboard: `949`
 - Unique lead sponsors: `500`
 - Peak month by primary completions: `December` with `192` trials
+- Live results check cutoff: `2026-05-17`
+- Due trials checked live: `252`
+- Likely press releases found: `5`
+- Results-coverage-only matches: `61`
+- No qualifying live match: `186`
+- Future-dated trials not yet due: `697`
 
 ## Scope
 
@@ -52,3 +62,4 @@ Direct deploy link:
 
 - Drug / therapy labels are derived from the intervention names exported from ClinicalTrials.gov.
 - Control-like labels such as placebo are de-emphasized when a more specific therapy label is available.
+- The results overlay is a conservative headline-level screen for triage and not a final adjudication of whether a given item is the definitive primary-endpoint readout for that trial.

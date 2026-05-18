@@ -1,0 +1,15 @@
+{
+  "total_trials": 949,
+  "checked_trials": 252,
+  "future_trials": 697,
+  "cutoff_date": "2026-05-17",
+  "queries_executed": 453,
+  "status_counts": {
+    "result_news_found_but_not_press_release": 61,
+    "no_match_found": 186,
+    "likely_press_release_found": 5,
+    "not_yet_due": 697
+  },
+  "input_csv": "/Users/gunjan/Documents/Playground/research/clinical-trials-landscape/output/phase3-current-industry-2026-05-15/phase3_completion_2026_dashboard_trials.csv",
+  "output_csv": "/Users/gunjan/Documents/Playground/research/clinical-trials-landscape/output/phase3-current-industry-2026-05-15/phase3_results_press_release_check_2026.csv"
+}

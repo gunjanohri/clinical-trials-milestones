@@ -1,5 +1,5 @@
 {
-  "source_csv": "ClinicalTrials.gov phase3_current_industry_contains_phase3.csv export snapshot",
+  "source_csv": "/Users/gunjan/Documents/Playground/research/clinical-trials-landscape/output/phase3-current-industry-2026-05-15/phase3_current_industry_contains_phase3.csv",
   "year": 2026,
   "trial_count": 949,
   "unique_sponsors": 500,
@@ -67,9 +67,20 @@
     }
   ],
   "source_data_timestamp": "2026-05-15T09:00:05",
+  "press_release_summary": {
+    "cutoff_date": "2026-05-17",
+    "checked_trials": 252,
+    "future_trials": 697,
+    "status_counts": {
+      "no_match_found": 186,
+      "result_news_found_but_not_press_release": 61,
+      "likely_press_release_found": 5,
+      "not_yet_due": 697
+    }
+  },
   "output_files": {
-    "html_dashboard": "site/index.html",
-    "trials_csv": "site/phase3_completion_2026_dashboard_trials.csv",
-    "month_counts_csv": "site/phase3_completion_2026_month_counts.csv"
+    "html_dashboard": "/Users/gunjan/Documents/Playground/research/clinical-trials-landscape/static/phase3-completion-2026/index.html",
+    "trials_csv": "/Users/gunjan/Documents/Playground/research/clinical-trials-landscape/static/phase3-completion-2026/phase3_completion_2026_dashboard_trials.csv",
+    "month_counts_csv": "/Users/gunjan/Documents/Playground/research/clinical-trials-landscape/static/phase3-completion-2026/phase3_completion_2026_month_counts.csv"
   }
 }
