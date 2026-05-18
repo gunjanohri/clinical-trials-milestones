@@ -44,6 +44,10 @@ This repo is set up for a Render `Static Site`.
 
 If you use the included Blueprint, Render can read [render.yaml](./render.yaml) directly.
 
+Direct deploy link:
+
+- [Deploy this repo on Render](https://render.com/deploy?repo=https://github.com/gunjanohri/clinical-trials-milestones)
+
 ## Notes
 
 - Drug / therapy labels are derived from the intervention names exported from ClinicalTrials.gov.
