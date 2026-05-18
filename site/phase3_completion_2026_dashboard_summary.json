@@ -1,0 +1,75 @@
+{
+  "source_csv": "ClinicalTrials.gov phase3_current_industry_contains_phase3.csv export snapshot",
+  "year": 2026,
+  "trial_count": 949,
+  "unique_sponsors": 500,
+  "unique_therapy_labels": 875,
+  "monthly_counts": [
+    {
+      "month_number": 1,
+      "month_label": "January",
+      "trial_count": 43
+    },
+    {
+      "month_number": 2,
+      "month_label": "February",
+      "trial_count": 35
+    },
+    {
+      "month_number": 3,
+      "month_label": "March",
+      "trial_count": 60
+    },
+    {
+      "month_number": 4,
+      "month_label": "April",
+      "trial_count": 61
+    },
+    {
+      "month_number": 5,
+      "month_label": "May",
+      "trial_count": 76
+    },
+    {
+      "month_number": 6,
+      "month_label": "June",
+      "trial_count": 109
+    },
+    {
+      "month_number": 7,
+      "month_label": "July",
+      "trial_count": 76
+    },
+    {
+      "month_number": 8,
+      "month_label": "August",
+      "trial_count": 71
+    },
+    {
+      "month_number": 9,
+      "month_label": "September",
+      "trial_count": 72
+    },
+    {
+      "month_number": 10,
+      "month_label": "October",
+      "trial_count": 88
+    },
+    {
+      "month_number": 11,
+      "month_label": "November",
+      "trial_count": 66
+    },
+    {
+      "month_number": 12,
+      "month_label": "December",
+      "trial_count": 192
+    }
+  ],
+  "source_data_timestamp": "2026-05-15T09:00:05",
+  "output_files": {
+    "html_dashboard": "site/index.html",
+    "trials_csv": "site/phase3_completion_2026_dashboard_trials.csv",
+    "month_counts_csv": "site/phase3_completion_2026_month_counts.csv"
+  }
+}

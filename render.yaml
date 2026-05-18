@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: clinical-trials-milestones-2026
+    buildCommand: echo "Static site ready"
+    staticPublishPath: site
